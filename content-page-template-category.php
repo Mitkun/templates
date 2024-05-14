@@ -158,7 +158,7 @@ if ($category_id) {
     }
     curl_close($ch);
 }
-
+echo "<link rel='stylesheet' type='text/css' href='./content-page-template-category.css'>";
 ?>
 <article id="post-">
   <div class="alignwide has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"

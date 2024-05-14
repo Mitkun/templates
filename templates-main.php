@@ -62,6 +62,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+<link rel=“stylesheet” type=“text/css” href=“./templates-main.css” />
 <style>
     /* templates main list block */
     body .is-layout-constrained .wrap-templates-main {
@@ -239,6 +240,19 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         background-color: #FFFFFF;
         color: #000000;
     }
+
+	@media (min-width: 1200px) {
+		.super-categories-container .super-categories-content {
+			background-color: unset;
+    }
+	.super-categories-content .super-categories-item .active {
+		background-color: #000000;
+		color: #FFFFFF;
+	}
+	.super-categories-content .super-categories-item {
+		color: #000000;
+	}
+}
 </style>
 
 <script>
